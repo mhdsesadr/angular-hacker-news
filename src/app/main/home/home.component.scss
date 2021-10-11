@@ -1,0 +1,28 @@
+a {
+  text-decoration: none;
+  cursor: pointer;
+  color: #000000;
+  font-size: 10pt;
+  line-height: 12px;
+  padding-right: 4px;
+}
+
+.alefba-header {
+  background-color: #f86626;
+}
+
+.alefba-style-img {
+  cursor: pointer;
+  img {
+    border: 1px solid white;
+  }
+}
+//@media (max-width: 1280px) {
+//.alefba-header{
+//  margin-top: 0 !important;
+//}
+//  .alefba-header-top{
+//    max-width: 100%;
+//  }
+//}
+

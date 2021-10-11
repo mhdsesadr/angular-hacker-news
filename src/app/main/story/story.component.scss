@@ -1,0 +1,31 @@
+@import "../general";
+footer{
+  border-top: 1px solid orangered;
+}
+a{
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 8pt;
+  color: #000000;
+  text-decoration: none;
+}
+.alefba-footer{
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 10pt;
+  color: #828282;
+  input{
+    outline: none;
+  }
+}
+.alefba-story-box{
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 10pt;
+  color: #828282;
+}
+.alefba-span-style{
+  color: #000000;
+}
+.alefba-span-bottom{
+  font-size: 7pt;
+  color: #828282;
+  cursor: pointer;
+}

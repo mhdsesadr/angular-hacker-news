@@ -1,0 +1,28 @@
+<div class="alefba-bg pt-1 px-1">
+
+  <div class="pb-3  alefba-story-box">
+    <div *ngFor="let story of topStories; let i = index" class="d-flex ">
+      <div class="d-flex me-2">
+        <div class="">{{i + 1}}</div>
+        <i class="fas fa-sort-up pt-2"></i>
+      </div>
+      <div class="d-flex flex-column">
+        <div class="alefba-span-style">{{story.title}}</div>
+        <div [routerLink]="story.id" class="alefba-span-bottom">{{story.kids.length}} comment</div>
+      </div>
+    </div>
+  </div>
+
+  <footer class=" flex-column">
+    <div class="d-flex justify-content-center pt-2 pb-2">
+      <a class="" href="">Guidelines |</a>
+      <a class="" href="">FAQ |</a>
+      <a class="" href="">Lists </a>
+      <a class="" href=""> | API |</a>
+      <a class="" href="">Security |</a>
+      <a class="" href="">Legal |</a>
+      <a class="" href="">Apply to YC |</a>
+      <a class="" href="">Contact</a>
+    </div>
+  </footer>
+</div>

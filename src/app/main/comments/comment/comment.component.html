@@ -1,0 +1,11 @@
+<div>
+  <div *ngFor="let comment of comments" class="ps-4 py-2 comment-container">
+    <span class="text-secondary">{{comment.by}}:</span>
+    <div [innerHTML]="comment.text"></div>
+    <ul *ngIf="comment.kids">
+      <li *ngFor="let id of comment.kids">
+        <app-comment [itemID]="id"></app-comment>
+      </li>
+    </ul>
+  </div>
+</div>
